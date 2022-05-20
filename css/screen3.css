@@ -15,4 +15,7 @@
     padding: 0 9%;
     margin: 7% 40px;
     background-color: #82DBD8;
+    border: 0 solid;
+    box-shadow: 10px 5px;
+    border-radius: 20%;
 }

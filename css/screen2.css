@@ -11,6 +11,9 @@
 
 .ecran2 .left
 {
+    margin: 10px 10px;
+    border-radius: 10% 0 0 10%;
+    border: 0 solid;
     background-color: #82DBD8;
     width: 25%;
 }

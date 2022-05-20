@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    width: 100%;
+    padding: 10% 0px;
+    background-color: #2F8F9D;
+    box-shadow: 0 -5px;
+    border-radius: 50px 50px 0 0;
+}

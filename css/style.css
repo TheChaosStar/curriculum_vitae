@@ -33,9 +33,12 @@ section {
     width: 100%;
     display: flex;
     background-color: #B3E8E5;
+    border: 2px solid;
+    box-shadow: 10px 10px;
     border-radius: 5%;
     align-content: center;
     justify-content: center;
+    margin: 2% 0;
 }
 
 .ecran h3 {
