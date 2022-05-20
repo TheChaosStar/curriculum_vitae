@@ -1,0 +1,16 @@
+/* ecran 2 */
+.ecran2 {
+    width: 100%;
+    display: inline-flex;
+}
+
+.ecran2 .right
+{
+    width: 75%;
+}
+
+.ecran2 .left
+{
+    background-color: #82DBD8;
+    width: 25%;
+}
