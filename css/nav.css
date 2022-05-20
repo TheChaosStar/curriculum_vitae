@@ -1,0 +1,101 @@
+header h1 {
+    font-size: 75px;
+    text-align: center;
+    background-color: #3BACB6;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 200px 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #3BACB6;
+    padding: 30px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    border-radius: 15% 50%;
+    box-shadow: 2px 2px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 15px 25px;
+    background-color: aqua;
+}
+
+
+
+/* ecran 2 */
+.ecran2 {
+    width: 100%;
+    display: inline-flex;
+}
+
+.ecran2 .right
+{
+    width: 75%;
+}
+
+.ecran2 .left
+{
+    background-color: #82DBD8;
+    width: 25%;
+}
+
+/* ecran 3*/
+.ecran3 {
+    width: 100%;
+
+    display: flex;
+}
+
+.ecran3 h3
+{
+    height: 8%;
+}
+
+.ecran3 div
+{
+    padding: 0 9%;
+    margin: 7% 40px;
+    background-color: #82DBD8;
+}
+
+/* ecran 4*/
+.ecran4 {
+    width: 100%;
+}
+
+.ecran4 h3
+{
+    margin: 25px 25px;
+}
+
+
+/* ecran 5*/
+.ecran5 {
+    width: 100%;
+}
+
+.ecran5 div
+{
+
+    
+}
+
+/* ecran 6*/
+.ecran6 {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 25% 0px;
+    background-color: #2F8F9D;
+}
