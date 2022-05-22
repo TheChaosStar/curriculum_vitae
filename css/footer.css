@@ -1,8 +1,28 @@
 footer {
     display: flex;
     width: 100%;
-    padding: 10% 0px;
+    padding: 1% 0px;
     background-color: #2F8F9D;
-    box-shadow: 0 -5px;
+    box-shadow: 0 -5px #63A5A2;
     border-radius: 50px 50px 0 0;
+}
+
+footer a
+{
+    padding: 0 10%;
+}
+
+footer a img
+{
+    border: 0 solid;
+    border-radius: 50%;
+    width: 50%;
+}
+
+
+@media (max-width: 1500px)
+{
+    footer{
+        background-color: #B3E8E5;
+    }
 }

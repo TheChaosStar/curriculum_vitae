@@ -1,19 +1,23 @@
 /* ecran 2 */
 .ecran2 {
-    width: 100%;
+    width: 80%;
     display: inline-flex;
+    justify-content: space-between;
 }
 
 .ecran2 .right
 {
-    width: 75%;
+    width: 50%;
+    height: 100%;
 }
 
 .ecran2 .left
 {
-    margin: 10px 10px;
-    border-radius: 10% 0 0 10%;
-    border: 0 solid;
+    margin: 10px 50px;
+    width: 30%;
+    height: 90%;
+    border: 2 solid;
+    box-shadow: 5px 5px #63A5A2;
+    border-radius: 10% 10%;
     background-color: #82DBD8;
-    width: 25%;
 }

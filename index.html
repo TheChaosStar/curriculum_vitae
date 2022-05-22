@@ -24,116 +24,153 @@
 
 <body>
     <div id="blocPrincipal">
-        <section>
-            <header>
-                <nav>
-                    <h1>Curriculum Vitea</h1>
-                    <ul>
-                        <li><a href="">Accueil</a></li>
-                        <li><a href="">A Propos</a></li>
-                        <li><a href="">Compétences</a></li>
-                        <li><a href="">Formation</a></li>
-                        <li><a href="">Portofolio</a></li>
-                        <li><a href="">Me contacter</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </section>
+        <header>
+            <nav>
+                <h1>Curriculum Vitea</h1>
+                <ul>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">A Propos</a></li>
+                    <li><a href="">Compétences</a></li>
+                    <li><a href="">Formation</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Me contacter</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <!--ecran 1-->
+        <!--ecran 1: En savoir plus...-->
+        <section>
             <div class="ecran ecran1">
-                <h3>En savoir plus...</h2>
+                <h3>En savoir plus...</h3>
                 <div class="bottom"></div>
             </div>
+        </section>
 
-        <!--ecran 2-->
-        <div class="ecran ecran2">
-            <div class="left"></div>
-            
-            <div class="right">
-                <h3>Qui suis-je</h3>
+        <!--ecran 2: Qui suis-je ? -->
+        <section>
+            <div class="ecran ecran2">
+                <div class="left"></div>
+                <div class="right">
+                    <h3>Qui suis-je ?</h3>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <!--ecran 3-->
-        <div class="ecran ecran3">
-            <div>
-                <h3>Valeurs</h3>
-                <div></div>
+
+        <!--ecran 3: Valeurs/Objectifs/Passions -->
+        <section>
+            <div class="ecran ecran3">
+                <div class="container">
+                    <h3>Valeurs</h3>
+                    <div class="contained"></div>
+                </div>
+
+                <div class="container">
+                    <h3>Objectifs</h3>
+                    <div class="contained"></div>
+                </div>
+
+                <div class="container">
+                    <h3>Passions</h3>
+                    <div class="contained"></div>
+                </div>
             </div>
+        </section>
 
-            <div>
-                <h3>Objectifs</h3>
-                <div></div>
+
+        <!--ecran 4: Mes Compétences-->
+        <section>
+            <div class="ecran ecran4">
+                <h3>Mes Compétences</h3>
             </div>
+        </section>
 
-            <div>
-                <h3>Passions</h3>
+
+        <!--ecran 5: CV -->
+        <section>
+            <div class="ecran ecran5">
                 <div>
+                    <h3>CV</h3>
+                    <img src="images/CV.png" alt="CV">
+                </div>
             </div>
+        </section>
 
+        <!--ecran 6: Mon Parcours de formation-->
+        <section>
+            <div class="ecran ecran6">
+                <h3>Mon Parcours de formation</h3>
+                <div class="container">
+                </div>
+                    
+                <div class="container">
+                </div>
             </div>
-        </div>
+        </section>
 
-        <!--ecran 4-->
-        <div class="ecran ecran4">
-            <h3>Mes Compétences</h1>
-
-        </div>
-
-        <!--ecran 5-->
-        <div class="ecran ecran5">
-            <div>
-                <h3>CV</h3>
-                <img src="img/cv" alt="CV">
+        <!--ecran 7: Mes experiences-->
+        <section>
+            <div class="ecran ecran7">
+                <h3>Mes experiences</h3>
             </div>
-        </div>
+        </section>
 
-        <!--ecran 6-->
-        <div class="ecran ecran6">
-            <h3>Mon Parcours de formation</h3>
+
+        <!--ecran 8: Portfolio-->
+        <section>
+            <div class="ecran ecran8">
+                <h3>Portfolio</h3>
+                <!-- ligne 1 -->
+                <div class="L1">
+                    <img src="images/image_0.png" alt="">
+                    <img src="images/image_1.jpg" alt="">
+                    <img src="images/image_2.jpg" alt="">
+                </div>
     
-            <div class="left">
-    
+                <!-- ligne 2 -->
+                <div class="L2">
+                    <img src="images/image_3.jpg" alt="">
+                    <img src="images/image_4.jpg" alt="">
+                    <img src="images/image_5.jpg" alt="">
+                </div>
             </div>
-    
-            <div class="right">
-    
+        </section>
+
+        <!--ecran 9: Contactez Moi-->
+        <section>
+            <div class="ecran ecran9">
+                <h3>Contactez Moi</h3>
+                <div class="contact">
+                    <fieldset>
+                        <label for="name">Nom :</label> <br>
+                        <input type="text" id="name"> <br> <br>
+        
+                        <label for="email">Email :</label> <br>
+                        <input type="email" id="email"><br> <br>
+        
+                        <label for="message">Message :</label> <br>
+                        <textarea id="message" cols="30" rows="10"></textarea><br>
+                        <input id="btn" type="button" value="valider">
+                    </fieldset>
+                </div>
             </div>
-        </div>
-
-        <!--ecran 7-->
-        <div class="ecran ecran7">
-            <h3>Mes experiences</h3>
-
-        </div>
-
-        <!--ecran 8-->
-        <div class="ecran ecran8">
-            <!-- ligne 1 -->
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-    
-            <!-- ligne 2 -->
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-
-        <!--ecran 9-->
-        <div class="ecran ecran9">
-            <div class="contact">
-                <label for="name">Nom :</label>
-                <input type="text" id="name">
-            </div>
-        </div>
+        </section>
     </div>
 
 </body>
 <footer>
+
+    <a href="https://www.facebook.com">
+        <img src="images/facebook.png" alt="" onmouseover="passagedelasouris(this, 'images/facebook_hover.png')" onmouseout="departDeLaSouris(this, 'images/facebook.png')">
+    </a>
+
+    <a href="https://www.instagram.com">
+        <img src="images/instagram.png" alt="" onmouseover="passagedelasouris(this, 'images/instagram_hover.png')" onmouseout="departDeLaSouris(this, 'images/instagram.png')">
+    </a>
+
+    <a href="https://www.twitter.com">
+        <img src="images/twitter.png" alt="" onmouseover="passagedelasouris(this, 'images/twitter_hover.png')" onmouseout="departDeLaSouris(this, 'images/twitter.png')">
+    </a>
 
     <script src="script.js"></script>
 

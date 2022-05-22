@@ -1,4 +1,27 @@
 /* ecran 6*/
 .ecran6 {
-    width: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.ecran6 h3
+{
+    margin: 0 20px;
+    text-align: center;
+    flex: 1 100%;
+}
+
+.ecran6 div.container
+{
+    margin: 0 20px;
+    padding: 50px;
+    text-align: center;
+    background-color: #82DBD8;
+    box-shadow: 5px 5px #63A5A2;
+    border-radius: 25px;
+    height: 80%;
+    flex: 1;
+    font-size: 24px;
 }

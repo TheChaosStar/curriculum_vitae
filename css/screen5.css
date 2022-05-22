@@ -1,12 +1,16 @@
-
-
 /* ecran 5*/
 .ecran5 {
-    width: 100%;
+    width: 80%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
 }
 
-.ecran5 div
+.ecran5 img
 {
-
-    
+    width: 75%;
+    border: 5px solid;
+    box-shadow: 5px 5px #63A5A2;
+    border-radius: 25px;
 }

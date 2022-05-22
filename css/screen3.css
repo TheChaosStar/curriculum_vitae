@@ -1,21 +1,25 @@
 /* ecran 3*/
 .ecran3 {
-    width: 100%;
+    width: 80%;
 
     display: flex;
 }
 
-.ecran3 h3
+.ecran3 div.container h3
 {
+    
     height: 8%;
 }
 
-.ecran3 div
+.ecran3 div.container
 {
     padding: 0 9%;
     margin: 7% 40px;
+    height: 90%;
+    width: 28%;
+
     background-color: #82DBD8;
     border: 0 solid;
-    box-shadow: 10px 5px;
+    box-shadow: 10px 5px #63A5A2;
     border-radius: 20%;
 }
