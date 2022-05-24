@@ -25,23 +25,11 @@
 .ecran3 div.body div.container
 {
     justify-content: center;
-    background-color: #82DBD8;
     display: flex;
     border: 0 solid;
     border-radius: 20%;
-    box-shadow: 10px 5px #63A5A2;
+    background-color: lightgray;
+    box-shadow: 10px 5px gray;
     width: 350px;
     height: 800px;
-}
-
-.ecran3 .body .container h3
-{
-    
-    
-}
-
-
-.ecran3 .body .container .contained
-{
-    background-color: green;
 }

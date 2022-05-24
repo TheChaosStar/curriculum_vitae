@@ -22,8 +22,8 @@ div.contact
 .ecran9 div.contact fieldset
 {
     width: 24%;
-    background-color: #82DBD8;
+    background-color: lightgray;
     margin: 0 39%;
     border-radius: 25%;
-    box-shadow: 5px 5px #63A5A2;
+    box-shadow: 5px 5px gray;
 }

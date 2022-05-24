@@ -17,7 +17,7 @@
     width: 30%;
     height: 90%;
     border: 2 solid;
-    box-shadow: 5px 5px #63A5A2;
     border-radius: 10% 10%;
-    background-color: #82DBD8;
+    box-shadow: 5px 5px gray;
+    background-color: lightgray;
 }

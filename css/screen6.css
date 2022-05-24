@@ -18,8 +18,8 @@
     margin: 0 20px;
     padding: 50px;
     text-align: center;
-    background-color: #82DBD8;
-    box-shadow: 5px 5px #63A5A2;
+    background-color: lightgray;
+    box-shadow: 5px 5px gray;
     border-radius: 25px;
     height: 80%;
     flex: 1;
