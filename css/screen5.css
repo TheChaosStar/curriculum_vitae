@@ -1,10 +1,15 @@
 /* ecran 5*/
 .ecran5 {
     width: 80%;
-    display: inline-flex;
+}
+
+.ecran5 div{
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .ecran5 img

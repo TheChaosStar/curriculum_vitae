@@ -18,7 +18,13 @@
     <link rel="stylesheet" href="css/screen8.css">
     <link rel="stylesheet" href="css/screen9.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/097058085d.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/footer.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
     <title>Mon cv en ligne</title>
 </head>
 
@@ -68,12 +74,12 @@
                         <h3>Valeurs</h3>
                         <div class="contained"></div>
                     </div>
-    
+
                     <div class="container">
                         <h3>Objectifs</h3>
                         <div class="contained"></div>
                     </div>
-    
+
                     <div class="container">
                         <h3>Passions</h3>
                         <div class="contained"></div>
@@ -86,7 +92,7 @@
         <!--ecran 4: Mes Compétences-->
         <section>
             <div class="ecran ecran4">
-                
+
             </div>
         </section>
 
@@ -107,7 +113,7 @@
                 <h3>Mon Parcours de formation</h3>
                 <div class="container">
                 </div>
-                    
+
                 <div class="container">
                 </div>
             </div>
@@ -131,7 +137,7 @@
                     <img src="images/image_1.jpg" alt="">
                     <img src="images/image_2.jpg" alt="">
                 </div>
-    
+
                 <!-- ligne 2 -->
                 <div class="L2">
                     <img src="images/image_3.jpg" alt="">
@@ -144,40 +150,46 @@
         <!--ecran 9: Contactez Moi-->
         <section>
             <div class="ecran ecran9">
+                <div id="result-form"></div>
                 <h3>Contactez Moi</h3>
-                <div class="contact">
-                    <fieldset>
-                        <label for="name">Nom :</label> <br>
-                        <input type="text" id="name"> <br> <br>
-        
-                        <label for="email">Email :</label> <br>
-                        <input type="email" id="email"><br> <br>
-        
-                        <label for="message">Message :</label> <br>
-                        <textarea id="message" cols="30" rows="10"></textarea><br>
-                        <input id="btn" type="button" value="valider">
-                    </fieldset>
-                </div>
+                <form id="contact-form">
+                    <label for="name">Nom :</label> <br>
+                    <input type="text" name="name" id="name"> <br> <br>
+
+                    <label for="telephone">telephone :</label> <br>
+                    <input type="text" name="telephone" id="telephone"><br> <br>
+
+                    <label for="email">Email :</label> <br>
+                    <input type="email" name="email" id="email"><br> <br>
+
+                    <label for="message">Message :</label> <br>
+                    <textarea id="message" name="message" cols="30" rows="10"></textarea><br>
+                    <input id="btn" type="submit" value="valider">
+                </form>
             </div>
         </section>
     </div>
 
 </body>
 <footer>
-
     <a href="https://www.facebook.com">
-        <img src="images/facebook.png" alt="" onmouseover="passagedelasouris(this, 'images/facebook_hover.png')" onmouseout="departDeLaSouris(this, 'images/facebook.png')">
+        <img src="images/facebook.png" alt="" onmouseover="passagedelasouris(this, 'images/facebook_hover.png')"
+            onmouseout="departDeLaSouris(this, 'images/facebook.png')">
     </a>
 
     <a href="https://www.instagram.com">
-        <img src="images/instagram.png" alt="" onmouseover="passagedelasouris(this, 'images/instagram_hover.png')" onmouseout="departDeLaSouris(this, 'images/instagram.png')">
+        <img src="images/instagram.png" alt="" onmouseover="passagedelasouris(this, 'images/instagram_hover.png')"
+            onmouseout="departDeLaSouris(this, 'images/instagram.png')">
     </a>
 
     <a href="https://www.twitter.com">
-        <img src="images/twitter.png" alt="" onmouseover="passagedelasouris(this, 'images/twitter_hover.png')" onmouseout="departDeLaSouris(this, 'images/twitter.png')">
+        <img src="images/twitter.png" alt="" onmouseover="passagedelasouris(this, 'images/twitter_hover.png')"
+            onmouseout="departDeLaSouris(this, 'images/twitter.png')">
     </a>
 
+    <script src="formulaire.js"></script>
     <script src="script.js"></script>
 
 </footer>
+
 </html>
